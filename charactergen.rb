@@ -1,26 +1,32 @@
 class CharacterBuilder
-  attr_writer :p_class, :race, :gender, :age
+  attr_writer :player, :p_class, :race, :gender, :age
     def initialize
-      p_class
-      race
-      gender
-      age
-    end
+    @player = {
+      p_class: " ", race: " ", gender: " ", age: " ", name: " " 
+    }
+    #def initialize
+     # p_class
+      #race
+      #gender
+      #age
+    #end
     def p_class
-      @p_class=["rogue", "wizard", "fighter", "cleric"].sample
+      @p_class={:p_class=>["rogue", "wizard", "fighter", "cleric"].sample}
+      @player.select{ |k,v| == :p_class}
     end
     def gender
-      @gender=["male","female","trans"].sample
+      @gender={:gender=>["male","female","trans"].sample}
+      @player.select{ |k,v| == :gender}
     end
     def race
      if @p_class=="fighter"
-        then @race=["dwarf", "human","gnome"].sample
+        then @race={:race=>["dwarf", "human","gnome"].sample}
      elsif @p_class=="wizard"
-        then @race=["halfling", "elf","human"].sample
+        then @race={:race=>["halfling", "elf","human"].sample}
      elsif @p_class=="cleric"
-        then @race=["elf", "halfling","half-orc"].sample
+        then @race={:race=>["elf", "halfling","half-orc"].sample}
      elsif @p_class=="rogue"
-        then @race=["elf", "half-orc","human"].sample
+        then @race={:race=>["elf", "half-orc","human"].sample}
      end
     end
     def age 
@@ -40,12 +46,19 @@ class CharacterBuilder
         then @age=(rand(15..120))
       end
     end 
+    def set_symbol(p_class, race, gender,age)
     def to_s
-        "Player: #@gender #@p_class #@race, age #@age \n"
+        @player.to_s
+        #{}"Player: #@gender #@p_class #@race, age #@age \n"
     end
+    def self.hi
+    puts "Hello world!"
+  end
 end
 
 player = CharacterBuilder.new
 print player
+
+
 
 ##to build: naming based on race and stat generator
