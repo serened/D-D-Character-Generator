@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
-require 'D_D_Character_Gen'
+require 'd_d_character_gen'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
