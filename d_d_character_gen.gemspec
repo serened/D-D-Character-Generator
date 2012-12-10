@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A D&D 4e chracter generator"
   s.authors     = ["Serene Careaga"]
   s.email       = 'ruby@serenecareaga.com'
-  s.files       = ["lib/D_D_Character_Gen.rb"]
+  s.files       = ["lib/d_d_character_gen.rb"]
   s.homepage    =
     'http://rubygems.org/gems/d_d_character_gen'
 end

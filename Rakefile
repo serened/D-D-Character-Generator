@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{A D&D character generator for the lazy.}
   gem.description = %Q{A D&D character generator for the lazy. It will give you a name, age, class and race. It will not roll up your stats (yet).}
   gem.email = "serened@gmail.com"
-  gem.authors = ["serened"]
+  gem.authors = ["Serene Careaga"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

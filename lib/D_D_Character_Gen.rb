@@ -57,32 +57,32 @@ CharacterBuilder.class_eval do
     elsif @race=="elf" && @gender=="female"
      then @name=["Elda","Galen","Julie","Lina"].sample
     elsif @race=="half-orc" && @gender=="male"
-    then @name=["Ig","Anon","Hagu","Tilge"].sample
-   elsif @race=="half-orc" && @gender=="female"
-     then @name=["Perge","Qa","Xuga","Yroh"].sample
+      then @name=["Ig","Anon","Hagu","Tilge"].sample
+    elsif @race=="half-orc" && @gender=="female"
+      then @name=["Perge","Qa","Xuga","Yroh"].sample
    elsif @race=="gnome" && @gender=="male"
-     then @name=["Thosun","Delster","Belili","Duerdin"].sample
+      then @name=["Thosun","Delster","Belili","Duerdin"].sample
    elsif @race=="gnome" && @gender=="female"
-     then @name=["Elyryan","Cyniver","Alaellyra","Merwngwen"].sample
+      then @name=["Elyryan","Cyniver","Alaellyra","Merwngwen"].sample
    elsif @race=="dwarf" && @gender=="male"
-     then @name=["Lugnus", "Marin", "Musin", "Nomli"].sample
+      then @name=["Lugnus", "Marin", "Musin", "Nomli"].sample
    elsif @race=="dwarf" && @gender=="female"
-     then @name=["Bykila", "Fikila", "Gylan", "Nale"].sample
+      then @name=["Bykila", "Fikila", "Gylan", "Nale"].sample
    elsif @race=="halfling" && @gender=="male"
-    then @name=["Milo","Olo","Kelpi","Otho"].sample
+      then @name=["Milo","Olo","Kelpi","Otho"].sample
    elsif @race=="halfling" && @gender=="female"
-     then @name=["Ruby","Poppy","Portia","Violet"].sample
+      then @name=["Ruby","Poppy","Portia","Violet"].sample
    elsif @race=="eladrin" && @gender=="male"
      then @name=["Aialon", "Elarahal", "Jiardem", "Laern"].sample
    elsif @race=="eladrin" && @gender=="female"
-     then @name=["Sydri","Taris","Turue","Vacquiel"].sample
+      then @name=["Sydri","Taris","Turue","Vacquiel"].sample
    elsif @race=="dragonborn" && @gender=="male"
-     then @name=["Donaar","Ghesh","Heskan","Kriv"].sample
+      then @name=["Donaar","Ghesh","Heskan","Kriv"].sample
    elsif @race=="dragonborn" && @gender=="female"
-     then @name=["Daar","HArann","Kava","Korinn"].sample
+      then @name=["Daar","HArann","Kava","Korinn"].sample
    end
   end
 end
 
-player = CharacterBuilder.new
-print player
+#player = CharacterBuilder.new
+#print player
