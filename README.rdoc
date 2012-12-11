@@ -1,3 +1,5 @@
+{<img src="https://secure.travis-ci.org/serened/D-D-Character-Generator.png?branch=master" alt="Build Status" />}[https://travis-ci.org/serened/D-D-Character-Generator]
+
 = D-D-Character-Generator
 
 A 4e D&D Character generator for the lazy.	
@@ -5,6 +7,10 @@ A 4e D&D Character generator for the lazy.
 This program will randomly pick a race, class, gender, age and name for you to roll up and play until your heart is content.
 
 Long live gaming nights!
+
+== Dream Features
+
+I want to add a stat builder to this one day. I also want to create a CLI function. Someday, my pets.
 
 == Contributing to D-D-Character-Generator
  
