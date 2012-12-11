@@ -1,10 +1,9 @@
 language: ruby
 rvm:
-  - "1.8.7"
   - "1.9.2"
   - "1.9.3"
 
-task :travis do
+task:travis do
   ["rspec spec"].each do |cmd|
     puts "Starting to run #{cmd}..."
     system("export DISPLAY=:99.0 && bundle exec #{cmd}")
