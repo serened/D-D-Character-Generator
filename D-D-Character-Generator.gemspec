@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "D-D-Character-Generator"
-  s.version = ""
+  s.version = "2.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Serene Careaga"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
     "bin/d_d_character_gen",
     "d_d_character_gen-1.0.0.gem",
     "d_d_character_gen.gemspec",
