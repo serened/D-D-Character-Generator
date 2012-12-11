@@ -6,7 +6,12 @@ A 4e D&D Character generator for the lazy.
 
 This program will randomly pick a race, class, gender, age and name for you to roll up and play until your heart is content.
 
+The RubyGem.org page[https://rubygems.org/gems/d_d_character_gen]
+
 Long live gaming nights!
+
+== Testing Details
+Built-in RSPEC testing functionality.
 
 == Dream Features
 
