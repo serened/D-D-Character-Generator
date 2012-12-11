@@ -79,10 +79,10 @@ CharacterBuilder.class_eval do
    elsif @race=="dragonborn" && @gender=="male"
       then @name=["Donaar","Ghesh","Heskan","Kriv"].sample
    elsif @race=="dragonborn" && @gender=="female"
-      then @name=["Daar","HArann","Kava","Korinn"].sample
+      then @name=["Daar","Harann","Kava","Korinn"].sample
    end
   end
 end
 
-#player = CharacterBuilder.new
-#print player
+player = CharacterBuilder.new
+print player
