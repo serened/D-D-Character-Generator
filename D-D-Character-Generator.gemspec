@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.files = [
     ".DS_Store",
     ".rspec",
+    "D-D-Character-Generator.gemspec",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
